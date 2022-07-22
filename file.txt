@@ -1,0 +1,8 @@
+# Условный оператор
+
+if(condition) {
+/// condition -> TRUE
+} else {
+/// condition -> FALSE
+}
+
