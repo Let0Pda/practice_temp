@@ -7,6 +7,6 @@
 n = int(input("n = "))
 index = 0
 while index <= n:
-    if (index % 10) % 4 == 0:
+    if (index % 10) % 4 == 0: # (index % 10) - деление числа на 10 ЭТО ПОСЛЕДНЯЯ цифра числа,
         print(index, end=" ")
     index += 1
